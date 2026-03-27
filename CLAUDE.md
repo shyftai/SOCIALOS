@@ -31,6 +31,10 @@ Do not respond to the user's first message until the boot sequence is complete a
 - `.claude/socialos/references/hashtag-strategy.md` — hashtag research, selection, and rotation rules (load before publishing)
 - `.claude/socialos/references/community-playbook.md` — community management rules and response templates (load before engagement work)
 - `.claude/socialos/references/engagement-playbook.md` — commenting, reacting, and relationship-building rules (load before engagement workflows)
+- `.claude/socialos/references/audience-scoring.md` — weighted scoring for prioritizing audiences, creators, and communities (load before research and engagement)
+- `.claude/socialos/references/growth-waterfall.md` — cascading discovery and engagement logic for audience growth (load before growth work)
+- `.claude/socialos/references/content-scoring.md` — content quality scoring framework (load before review and writing)
+- `.claude/socialos/references/tool-setup-guides.md` — step-by-step tool setup for Buffer, Typefully, Meta, Twitter, Beehiiv, ConvertKit, Crispy, Slack (load during onboarding)
 
 ## Rules
 

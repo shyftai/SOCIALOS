@@ -21,7 +21,17 @@ Workspace and options: $ARGUMENTS
 4. If no brief exists, ask for topic and create an inline brief
 
 ## Context loading
-5. Load LEARNINGS.md -- check content learnings, format performance, anti-learnings. Apply proven patterns (e.g. "carousel hooks with questions get 2x engagement") and avoid known failures. Surface relevant learnings before drafting.
+5. Load LEARNINGS.md -- check content learnings, format performance, anti-learnings
+   - Check **content learnings** for what works on the target platform (hooks, formats, lengths, CTAs)
+   - Check **anti-learnings** to avoid known failures (e.g. formats that underperform, tones that fall flat)
+   - Surface relevant learnings before drafting:
+     ```
+     Applying learnings:
+       [+] question hooks +40% engagement on LinkedIn
+       [+] carousel posts outperform text 2:1 on this topic
+       [-] threads >8 tweets drop off on Twitter — keeping to 5
+       [-] promotional CTAs underperform soft asks by 3x
+     ```
 6. Load AUDIENCE.md -- understand who we're writing for
 7. Load TOV.md -- apply voice rules, channel-specific guidelines, banned words
 8. Load PILLARS.md -- ensure content aligns with a defined pillar
@@ -114,7 +124,15 @@ Workspace and options: $ARGUMENTS
     ```
 
 17. Update CALENDAR.md if a date was set
-18. Suggest next action:
+
+18. Prompt for learning capture:
+    ```
+    Did this piece use a new technique worth logging? (yes/no)
+    ```
+    - If yes, ask what worked (or what was tried new) and append to LEARNINGS.md under the appropriate section
+    - If no, continue to next action
+
+19. Suggest next action:
 ```
 ================================================================
 

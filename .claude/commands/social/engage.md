@@ -18,9 +18,13 @@ Workspace: $ARGUMENTS
 1. Display mode header: `<< SOCIAL:OS // ENGAGE >>`
 2. Load workspace context -- ENGAGEMENT.md, AUDIENCE.md, TOV.md, CHANNELS.md, BRAND.md
 3. Load engagement targets from ENGAGEMENT.md (daily quotas per platform)
+4. Load LEARNINGS.md -- focus on engagement section:
+   - Apply engagement learnings to all response suggestions (e.g. "questions in replies drive 2x more follow-up")
+   - Note which reply styles, tones, and formats have proven effective per platform
+   - Avoid anti-learned engagement patterns (e.g. "generic thank-you replies get zero follow-up")
 
 ## Engagement queue
-4. Scan for items needing response:
+5. Scan for items needing response:
 
 **Priority 1 -- Respond to your audience:**
 - Unresponded comments on your posts (sorted by age, oldest first)
@@ -34,7 +38,7 @@ Workspace: $ARGUMENTS
 - Trending conversations aligned with pillars
 - Competitor audience posts to comment on (value-add, not promotional)
 
-5. Display engagement dashboard:
+6. Display engagement dashboard:
 ```
 +==============================================================+
 |  ENGAGEMENT -- {Workspace} -- {date}                           |
@@ -63,7 +67,7 @@ Workspace: $ARGUMENTS
 ```
 
 ## Comment response workflow
-6. For each unresponded comment, show:
+7. For each unresponded comment, show:
 ```
   Comment on "{post title}" -- {platform} -- {time ago}
   From: {name}
@@ -77,7 +81,7 @@ Workspace: $ARGUMENTS
   >> (a)pprove / (e)dit / (s)kip / (n)ext
 ```
 
-7. Apply TOV.md rules to all replies:
+8. Apply TOV.md rules and LEARNINGS.md engagement patterns to all replies:
    - Match brand voice
    - Be genuine, not corporate
    - Add value in every response
@@ -85,19 +89,25 @@ Workspace: $ARGUMENTS
    - Positive comments get genuine appreciation, not generic thanks
 
 ## Proactive engagement guidelines
-8. For proactive engagement:
+9. For proactive engagement:
    - **Value-first**: every comment should add genuine value
    - **No self-promotion**: never plug your product in someone else's comments
    - **Be specific**: reference something specific in their post
    - **Ask questions**: genuine curiosity drives conversations
    - **Be a person**: write as a human, not a brand
 
-9. Track completion:
+10. Track completion:
    - Log each engagement action in engagement/log-{date}.md
    - Update progress counter after each action
    - When quota is met, display completion message
 
-10. End of session summary:
+11. Track new engagement patterns discovered during session:
+    - Note any reply styles that got unusually high follow-up or engagement
+    - Note any approaches that fell flat
+    - At session end, prompt: "Any new engagement patterns worth logging to LEARNINGS.md? (yes/no)"
+    - If yes, append findings to LEARNINGS.md engagement section
+
+12. End of session summary:
 ```
 ================================================================
 

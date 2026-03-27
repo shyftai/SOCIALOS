@@ -19,10 +19,21 @@ Workspace and topic: $ARGUMENTS
 2. Load workspace context -- BRAND.md, AUDIENCE.md, PILLARS.md, TOV.md, CHANNELS.md, LEARNINGS.md
 3. Display workspace header
 
-## Brief creation
-4. If topic provided in $ARGUMENTS, use it. Otherwise ask: "What's the topic or idea for this piece?"
+## Context deepening
+4. Load LEARNINGS.md explicitly -- before any brief decisions:
+   - Review **past performance data** by platform and format to inform recommendations
+   - Note top-performing content types, hooks, and formats for the target platform
+   - Identify **anti-learnings** relevant to the proposed topic or format
+   - Flag conflicts early: if the proposed format has anti-learnings, surface them:
+     ```
+     !! Anti-learning: long-form threads on Twitter drop engagement after tweet 6
+        Consider: single tweet with image or short thread (3-4 tweets) instead
+     ```
 
-5. Ask platform (or detect from context):
+## Brief creation
+5. If topic provided in $ARGUMENTS, use it. Otherwise ask: "What's the topic or idea for this piece?"
+
+6. Ask platform (or detect from context):
    - LinkedIn
    - Twitter / X
    - Instagram
@@ -30,7 +41,7 @@ Workspace and topic: $ARGUMENTS
    - Newsletter
    - Multiple (will generate platform-specific briefs)
 
-6. Ask format:
+7. Ask format:
    - **Text post** -- single post with optional image
    - **Carousel** -- multi-slide visual content
    - **Thread** -- multi-post connected narrative
@@ -39,7 +50,7 @@ Workspace and topic: $ARGUMENTS
    - **Newsletter** -- email content
    - **Long-form** -- LinkedIn article or blog post
 
-7. Ask goal (select one):
+8. Ask goal (select one):
    - Awareness -- reach new audience
    - Engagement -- drive comments and shares
    - Authority -- establish expertise
@@ -47,7 +58,7 @@ Workspace and topic: $ARGUMENTS
    - Community -- spark conversation
    - Education -- teach something specific
 
-8. Generate the brief:
+9. Generate the brief (reference LEARNINGS.md performance data when suggesting format and structure):
 ```
 +-- CONTENT BRIEF ----------------------------------------+
 |                                                          |
@@ -78,22 +89,22 @@ Workspace and topic: $ARGUMENTS
 +----------------------------------------------------------+
 ```
 
-9. Cross-reference with LEARNINGS.md:
+10. Cross-reference with LEARNINGS.md:
    - If similar content was created before, surface what worked and what didn't
    - If the format has performance data, include benchmark expectations
 
-10. Check CALENDAR.md for scheduling:
+11. Check CALENDAR.md for scheduling:
     - Suggest optimal posting time based on platform and audience
     - Flag if there's a conflict or gap this brief could fill
 
-11. Check execution mode from workspace.config.md:
+12. Check execution mode from workspace.config.md:
     - **Interactive:** Present brief for approval. On approval, save to content/briefs/
     - **Auto:** Auto-approve, save to content/briefs/, show `Auto-approved: brief saved`
 
-12. Save brief to content/briefs/{date}-{topic-slug}.md
-13. Update CALENDAR.md with the planned content
+13. Save brief to content/briefs/{date}-{topic-slug}.md
+14. Update CALENDAR.md with the planned content
 
-14. Suggest next action:
+15. Suggest next action:
 ```
 ================================================================
 
