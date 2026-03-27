@@ -10,8 +10,9 @@ Workspace and focus: $ARGUMENTS
 </objective>
 
 <execution_context>
-@./.claude/socialos/references/ui-brand.md
-@./.claude/socialos/references/defaults.md
+@./.claude/socialos/references/content-frameworks.md
+@./.claude/socialos/references/platform-specs.md
+@./.claude/socialos/references/hashtag-strategy.md
 </execution_context>
 
 <process>

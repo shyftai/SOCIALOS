@@ -11,6 +11,7 @@ Workspace: $ARGUMENTS (optional -- if omitted, list all workspaces)
 
 <execution_context>
 @./.claude/socialos/references/ui-brand.md
+@./.claude/socialos/references/defaults.md
 </execution_context>
 
 <process>

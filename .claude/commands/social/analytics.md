@@ -10,8 +10,10 @@ Workspace, platform, and period: $ARGUMENTS
 </objective>
 
 <execution_context>
+@./.claude/socialos/references/api-reference.md
+@./.claude/socialos/references/BENCHMARKS.md
+@./.claude/socialos/references/report-template.md
 @./.claude/socialos/references/ui-brand.md
-@./.claude/socialos/references/defaults.md
 </execution_context>
 
 <process>

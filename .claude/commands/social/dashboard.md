@@ -10,6 +10,7 @@ Workspace: $ARGUMENTS
 </objective>
 
 <execution_context>
+@./.claude/socialos/references/BENCHMARKS.md
 @./.claude/socialos/references/ui-brand.md
 @./.claude/socialos/references/defaults.md
 </execution_context>

@@ -8,8 +8,9 @@ Display a portfolio-level dashboard across all workspaces. Built for agencies an
 </objective>
 
 <execution_context>
+@./.claude/socialos/references/report-template.md
+@./.claude/socialos/references/BENCHMARKS.md
 @./.claude/socialos/references/ui-brand.md
-@./.claude/socialos/references/defaults.md
 </execution_context>
 
 <process>
